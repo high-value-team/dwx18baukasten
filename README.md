@@ -77,9 +77,9 @@ Am besten fängst du mit dem Game Server an. Wenn der nämlich läuft, kannst du
 
 Jetzt hast du sichergestellt, dass du überhaupt einen Service zum Laufen bringst. Super!
 
-Als nächstes kannst du entweder den [Game Server komplettieren](doc/Game Server implementieren.md), indem du für die Handler-Funktionen in `hm.game.AdminRequestHandler{}` und `hm.game.GameRequestHandler{}` entsprechende Controller-Methoden anlegst.
+Als nächstes kannst du entweder den [Game Server komplettieren](doc/Game_Server_implementieren.md), indem du für die Handler-Funktionen in `hm.game.AdminRequestHandler{}` und `hm.game.GameRequestHandler{}` entsprechende Controller-Methoden anlegst.
 
-Oder du bringst den Server, so wie er ist, [erstmal ins Internet](doc/Server containerisieren.md).
+Oder du bringst den Server, so wie er ist, [erstmal ins Internet](doc/Server_containerisieren.md).
 
 Entscheide du, ob du lieber in der Breite oder in der Tiefe vorgehen willst.
 
@@ -130,6 +130,6 @@ Beginne aber am besten auch wieder mit einer `Version()`-Funktion auf dem Contro
 
 Und dann weiter wie beim Game Server.
 
-Wenn der Scoreboard Server lokal läuft, überlege wieder, ob du zuerst den [Scoreboard Server komplettieren](doc/Scoreboard Server implementieren.md) willst oder ihn lieber erstmal [in die Cloud schiebst](doc/Server containerisieren.md).
+Wenn der Scoreboard Server lokal läuft, überlege wieder, ob du zuerst den [Scoreboard Server komplettieren](doc/Scoreboard_Server_implementieren.md) willst oder ihn lieber erstmal [in die Cloud schiebst](doc/Server_containerisieren.md).
 
 
