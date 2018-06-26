@@ -27,6 +27,7 @@ Als erstes stelle sicher, dass du alle Werkzeuge auf deinem Entwicklungsrechner 
 
 1. Eine C# IDE, z.B. Visual Studio oder Rider - weil du Code schreiben willst.
 2. [Docker](https://www.docker.com/get-docker) - weil der Code am Ende in Containern laufen soll.
+  1. Lege bitte auch ein Konto bei Docker an. Du brauchst es später für die Registrierung von Containern.
 3. Einen REST-Client wie [Insomnia](https://insomnia.rest) oder [Postman](https://www.getpostman.com) - weil du Service-Implementationen testen können willst, ohne ein Frontend bemühen zu müssen.
 4. Ein Konto bei [sloppy.io](https://sloppy.io/de/) - weil du deine Server in Docker Containern in der Cloud laufen lassen willst. Das sloppy.io-Konto bietet einen Testzeitraum; allerdings musst du ein Zahlungsmittel wie Paypal oder Kreditkarte hinterlegen. Aber keine Sorge, sloppy.io macht aus deinem Testkonto nicht automatisch ein Bezahlkonto; dein Zahlungsmittel wird nicht belastet, wenn du es nicht ausdrücklich wünschst.
 
@@ -128,7 +129,7 @@ Beginne aber am besten auch wieder mit einer `Version()`-Funktion auf dem Contro
   * `contracts\hm.contracts.dll`
   * `scoreboard_logic\hm.scoreboard.dll`
 
-Und dann weiter wie beim Game Server.
+Und dann weiter wie beim Game Server. Allerdings solltest du für den Scoreboard Server einen anderen Port wählen, z.B. 9000 (vgl. Listing 2).
 
 Wenn der Scoreboard Server lokal läuft, überlege wieder, ob du zuerst den [Scoreboard Server komplettieren](doc/Scoreboard_Server_implementieren.md) willst oder ihn lieber erstmal [in die Cloud schiebst](doc/Server_containerisieren.md).
 

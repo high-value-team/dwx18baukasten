@@ -1,1 +1,1 @@
-# Game Server implementieren
+# Scoreboard Server implementieren
