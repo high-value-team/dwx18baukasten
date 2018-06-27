@@ -29,6 +29,8 @@ Als erstes stelle sicher, dass du alle Werkzeuge auf deinem Entwicklungsrechner 
 2. [Docker](https://www.docker.com/get-docker) - weil der Code am Ende in Containern laufen soll.
   1. Lege bitte auch ein Konto bei Docker an. Du brauchst es später für die Registrierung von Containern.
 3. Einen REST-Client wie [Insomnia](https://insomnia.rest) oder [Postman](https://www.getpostman.com) - weil du Service-Implementationen testen können willst, ohne ein Frontend bemühen zu müssen.
+4. Ein Konto bei [GitHub](http://github.com) - weil du dieses Repository forken willst.
+  1. Lade außerdem einen Git-Client herunter, wenn du noch keinen haben solltest. Dann bist du Newbie bei Git und GitHub und wir empfehlen dir den [GitHub Git Desktop Client](https://desktop.github.com). (Aber du kannst es auch mit der Git-Integration in Visual Studio probieren.)
 4. Ein Konto bei [sloppy.io](https://sloppy.io/de/) - weil du deine Server in Docker Containern in der Cloud laufen lassen willst. Das sloppy.io-Konto bietet einen Testzeitraum; allerdings musst du ein Zahlungsmittel wie Paypal oder Kreditkarte hinterlegen. Aber keine Sorge, sloppy.io macht aus deinem Testkonto nicht automatisch ein Bezahlkonto; dein Zahlungsmittel wird nicht belastet, wenn du es nicht ausdrücklich wünschst.
 
 ### 1. Repository einrichten
