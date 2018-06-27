@@ -26,7 +26,11 @@ Benutzer sollen sich einen Game Server aussuchen, aber keinen Scoreboard Server.
 ### Wortliste hochladen (A)
 Ein Game Server wählt für neue Spiele das zu ratende Wort aus einer Liste. Die kann vom Client hochgeladen werden.
 
-Das ist zwar eine Admin-Funktion und sollte nicht jedem Spieler erlaubt werden, doch der Einfachheit halber ist diese Funktionalität in den Client integriert. Alternativ kannst du aber auch die Wortliste per `curl` hochladen.
+Das ist zwar eine Admin-Funktion und sollte nicht jedem Spieler erlaubt werden, doch der Einfachheit halber ist diese Funktionalität in den Client integriert.
+
+Alternativ kannst du aber auch die Wortliste per `curl` hochladen:
+
+`curl --data-binary @{wortlistendateiname} {{g_address}}/api/admin/words `
 
 **Request**
 
@@ -45,7 +49,7 @@ Bildschirm
 
 * Statuscode: 200
 
-### Spiel beginnen
+### Spiel beginnen (S)
 
 **Request**
 
@@ -71,7 +75,7 @@ Die `playerId` muss vorher vom Scoreboard Server generiert worden sein, an den d
 }
 ```
 
-### Raten
+### Raten (S)
 In jeder Runde eines Spiels kann der Spieler einen Buchstaben oder sogar das ganze Wort raten. Die Vermutung wird an den Game Server geschickt, der sie auswertet und einen aktualisierten Spielstand zurückschickt.
 
 **Request**
@@ -99,7 +103,7 @@ In jeder Runde eines Spiels kann der Spieler einen Buchstaben oder sogar das gan
 }
 ```
 
-### Spiel abbrechen
+### Spiel abbrechen (S)
 Ein Spiel endet automatisch, wenn es gewonnen oder verloren wurde. Der Spieler kann es allerdings auch vorher abbrechen. Dann wird kein Ergebnis an den Scoreboard Server gemeldet.
 
 **Request**
